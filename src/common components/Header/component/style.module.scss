@@ -1,0 +1,43 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #2f80ed;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header button {
+  background-color: transparent;
+  color: #ffffff;
+}
+.block__userAuth {
+  display: flex;
+  justify-content: space-between;
+  /* width: 436px; */
+}
+.block__userAuth button:nth-child(1) {
+  width: 190px;
+}
+.block__userAuth img {
+  margin: 0 32px;
+}
+.button {
+    width: 133px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.unvisible {
+  display: none;
+}
+.bl {
+  width:20px;
+}

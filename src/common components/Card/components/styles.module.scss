@@ -1,0 +1,38 @@
+.card {
+  overflow: hidden;
+  max-width: 16.875em;
+  min-height: 352px;
+  background: #ffffff;
+  box-shadow: 0px 6px 8px rgba(234, 237, 242, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0px 12px 24px rgba(188, 201, 220, 0.4);
+}
+.card div:nth-child(1) {
+  height: 196px;
+}
+.card > div > img {
+  width: 100%;
+}
+.card > div:nth-child(2) {
+  margin: 0 16px;
+}
+.cardContent h6 {
+  margin: 8px 0px;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 133%;
+  letter-spacing: 0.0075em;
+  color: #333333;
+}
+.cardContent p {
+  margin: 8px 0px;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 142%;
+  letter-spacing: 0.0168em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #4f4f4f;
+}
